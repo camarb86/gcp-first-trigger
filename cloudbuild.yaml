@@ -5,7 +5,7 @@ steps:
   - '-c'
   - 'echo "The cloud build triggered successfully !!!"; echo "Repository: $REPO_NAME"; echo "Branch: $BRANCH_NAME"; echo "Commit ID: $COMMIT_SHA"'
 
-#options
+#options:
 #  logging: CLOUD_LOGGING_ONLY
 #logsBucket: gs://gcp-devops-course-bucket-amar
 
